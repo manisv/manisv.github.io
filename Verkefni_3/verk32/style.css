@@ -4,13 +4,13 @@
 body {
     margin: 0 auto;
     max-width: 120em;
-    font-family: 'Merriweather', serif;
-    background-color: #02529C;
-    color:white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    color:black;
 }
 .body {
     display:grid;
-    grid-gap: 1em;
+    padding: 1em;
     grid-template-areas:
     "haus"
     "topnav"
@@ -34,8 +34,9 @@ body {
 .haus {
     grid-area: haus;
     text-align: center;
-    color: #DC1E35;
-    font-weight: 700
+    color: #1793d1;
+    font-weight: 700;
+    background-color: #333333
 }
 
 .as1 {
@@ -47,13 +48,13 @@ body {
 .as2 {
     grid-area: as2;
     padding-right: 1em;
-    border-left: 1px solid #DC1E35;
+    border-left: 1px solid #333333;
     text-align: center
 }
 
 .art1 {
     grid-area: art1;
-    border-bottom: 1px solid #DC1E35;
+    border-bottom: 1px solid #333333;
 }
 
 /*-- Flex box --*/
@@ -63,7 +64,7 @@ body {
     justify-content: space-around;
     margin: 0;
     padding:1em;
-    background-color: #DC1E35;
+    background-color: #333333;
 }
 
 .topmenu li, .footmenu li {
@@ -71,8 +72,7 @@ body {
 }
 
 .nav, a:hover{
-    color: #02529C;
-    background-color: #A81828;
+    color: #1793d1;
 }
 
 .nav, a{
