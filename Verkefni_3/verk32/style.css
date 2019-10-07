@@ -36,7 +36,8 @@ body {
     text-align: center;
     color: #1793d1;
     font-weight: 700;
-    background-color: #333333
+    background-color: #333333;
+    margin: 0;
 }
 
 .as1 {
