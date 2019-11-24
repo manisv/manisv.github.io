@@ -8,38 +8,66 @@
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body> 
+  <body class="color2"> 
     <header class="container headcolor col-2">
       <div class="title">
         <h1>
-          Bakgrunnslitir
+          Forsíða
         </h1>
       </div>
       <div>
-        <p class="verkefni">Forsíða</p>
-        <nav class="topnav">
-          <a href="index.html" title="bakgrunnar">Bakgrunnar</a>
-          <a href="verkefni_4/innerlinks.html" title="Efnisyfirlit">Efnisyfirlit</a>
-        </nav>
+          <p class="verkefni">Verkefni 5</p>
+        </div>
       </div>
     </header>
-    <section class="bgcolor"> 
+    <section class="bgcolor3"> 
       <main class="container col-2 gap-4">
         <section>
-          <h1>Myndvinnsla</h1>
-          <p>Meðfylgjandi verkefninu er <strong>.zip skrá </strong>með 2 vefsíðum sem þú átt að tengja saman.  Normalize.css stílsíðan fylgir með en aðal stílsíðuna vantar. Þú átt að búa hana til og tengja við vefsíðurnar. Skipulag síðunnar á að vera svipað því sem sýnt er hér á vefsíðunni en <em>lita- og leturval er frjálst</em></p>       
-          <p>Þegar skjár er minni en 60em (960px) þá á textinn í vefsíðunni að dragast saman og vera sýnilegur, prófaðu að nota stílbragðið <em><strong>"max-with".</strong></em></p>
+          <h1>Um Mig</h1>
+          <p class="text">Ég heiti Máni og er fæddur árið 2002 í Vestmannaeyjum frá ungum aldri byrjaði ég í skák svo 2014 flutti ég á Selfoss og fór í framhaldskóla þar hætti eftir eitt ár og fór í Tækniskólan í Reykjavík</p>
+        </section>
+        <section class="col-2 mtop8em gap-2">
+          <div>
+          <img src="images/chess.jpeg" class="flright">
+          </div>
+          <p>Myndin er 1336x750 stærð og er í formatinu jpg</p>
+          <div>
+          <audio controls>
+            <source src="audio/Lil peep.mp3" type="audio/mpeg">
+        </audio>
+        <p>Lil Peep - I crash, U crash</p>
+          </div>
         </section>
         <section>
-          <img src="" alt=""> 
-          <p>Þetta vefdæmi er að hluta til byggt á verkefnadæmi á vef Shayhowe,<em> Gradient backrounds</em> en þar sem hann hefur ekki uppfært vefinn notar hvorki flexbox eða grid lausnir er ekki hægt að fara eftir hans uppsetningu </p>
-          <blockquote>Hér er bakgrunnurinn hvítur með 70% gagnsæi <i>(e. transparency).</i><br>Til að skoða kóðann í vafra þá skaltu opna vafra (Chrome) og smella á &#9776; táknið hægra megin í valslánni og velja <em>"Developers tools"</em> úr fellilistanum.<br> Eða bara smella á takkann <b>F12</b> á lyklaborðinu, "Inspectorinn" virkar svipað í Firefox og Chrome</blockquote></p>
+          <div>
+              <h1>Myndband</h1>
+              <p>Myndbandið sýnir trailer af leiknum Counter Strike</p>
+              <iframe class="video" src="https://www.youtube.com/embed/edYCtaNueQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </section>
-        <a href="https://vefgrunnur.github.io/bjargir.html" target="_blank" title="Vefgrunnur">Gagnlegar grunnslóðir</a>
+        <section>
+        <div>
+        <h1>Áhugamál</h4>    
+          <p class="text">Áhugamálið mitt eru tölvuleikir. Ég spila oftast leik sem heitir Counter Strike Global Offensive(CSGO) sem er frægur leikur í first person shooter(FPS) genra-inu og fyrsta gerðin af leiknum kom út árið 1998. Ég hef áhuga á skák en ekki eins mikið og þegar ég var yngri.</p>
+        </div>
+      </section>
+    </section>  
       </main>
-    </section>
-    <footer class="container footcolor col-3">
-        <nav>
+    <footer class="container footcolor footcol col-3 gap-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6961.2485619354375!2d-21.9026596!3d64.1390675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x16719bf129fa31a7!2zVMOma25pc2vDs2xpbm4gLSBIw6F0ZWlnc3ZlZ3Vy!5e0!3m2!1sen!2sis!4v1572869620717!5m2!1sen!2sis" class="kort" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+      <nav>
+          <h4>Innri tenglar <em>(relative links)</em></h4>
+          <ul class="footnav"><!-- inner links -- hér þarf að aðlaga slóðir að eigin verkefnum -->
+            <li><a href="Verkefni_1">Verkefni 1</a></li>
+            <li><a href="Verkefni_2/Verkefni-21-22"> Verkefni 2.1-2.2</a></li>
+            <li><a href="Verkefni_2/verkefni-23">Verkefni-23</a></li>
+            <li><a href="Verkefni_2/verkefni-24">Verkefni 2.4</a></li>
+            <li><a href="Verkefni_3/verk31">Verkefni 3</a></li>
+            <li><a href="verkefni_4/innerlinks.html">Verkefni 4</a></li>
+            <li><a href="/aefing-nemar/index.html">Verkefni 6</a></li>
+          </ul>
+        </nav>
+      <nav>
           <h4>DL listi </h4>
           <dl><!--Description list, nafn tölvupóstur og áfangi-->
             <dt>Nafn:</dt>
@@ -48,35 +76,9 @@
               <dd>VEFÞ1VG</dd>
             <dt>Tölvupóstfang:</dt>
               <dd>manich2002@gmail.com</dd>
+              <dt>Gagnlegar slóðir:</dt>
+              <dd><a href="https://vefgrunnur.github.io/bjargir.html" target="_blank" title="Vefgrunnur" class="litur">Gagnlegar grunnslóðir</a></dd>
           </dl>
-
-        </nav>
-        <nav>
-          <h4>Innri tenglar <em>(relative links)</em></h4>
-          <ul class="footnav"><!-- inner links -- hér þarf að aðlaga slóðir að eigin verkefnum -->
-            <li><a href="Verkefni_1">Verkefni 1</a></li>
-            <li><a href="Verkefni_2/Verkefni-21-22"> Verkefni 2.1-2.2</a></li>
-            <li><a href="Verkefni_2/verkefni-23">Verkefni-23</a></li>
-            <li><a href="Verkefni_2/verkefni-24">Verkefni 2.4</a></li>
-            <li><a href="Verkefni_3/verk31">Verkefni 3</a></li>
-            ><li><a href="verkefni_4/innerlinks.html">Verkefni 4.2</a></li>
-          </ul>
-        </nav>
-        <nav>
-          <h4>Ytri tenglar <em>(absolute links)</em></h4>
-          <ul class="footnav"> <!-- Absolute links "target _blank" opnar nýjan glugga í vafranum !aðeins notað þegar vísað er út úr eigin vef-->
-            <li> 
-              <a href="https://vefgrunnur.github.io/bjargir.html" target="_blank" title="Vefgrunnur">Gagnlegar grunnslóðir</a>        
-            </li>  
-            <li>
-              <a href="https://www.mbl.is/frettir/">MBL</a>
-            </li>
-            <li>
-              <a href="https://github.com/manisv/">Github</a>
-            </li>
-            <li>
-                <a href="https://www.visir.is/">Vísir</a> 
-            </li>
         </nav>
       </footer>
     <p class="copy">&copy; 2019 Máni</p>
