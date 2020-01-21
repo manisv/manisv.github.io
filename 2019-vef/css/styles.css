@@ -1,0 +1,196 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 ,'Gothic A1'sans-serif; /* samsett skipun: weight/height, size, family */
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+blockquote{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 1em
+}
+.container {
+    margin: 0; /* top+bottom og left+right */
+    padding: .5em;
+}
+.headcolor, .footcolor{
+    color: #fff
+}
+.bgcolor{
+    background: linear-gradient(to top, rgb(240, 202, 152), white);
+    padding: 1em;
+}
+.bgcolor2{
+    background: linear-gradient(to bottom, rgb(240, 202, 152), white);
+    padding: 1em;
+}
+.bgcolor3{
+    background: linear-gradient(to top, rgb(9, 39, 105), rgb(8, 163, 202));
+    padding: 1em;
+}
+/*
+.vheight {
+    height: 100vh;
+}
+*/
+.marginb{
+    margin-bottom: -1em;
+}
+.margint{
+    margin-top: 4em;
+}
+.tile {
+    padding: 0;
+}
+
+.verkefni {
+    text-align: right
+}
+
+.innermenu {
+    display: flex;
+    justify-content: center;
+}
+.innermenu a{
+    color: bisque;
+    background-color: rgb(14, 14, 144);
+    padding: .5em 1em;
+    margin-top: 1em;
+    text-decoration: none;
+    border-right: 1px solid white
+}
+.innermenu a:last-child {
+    border: 0;
+}
+.innermenu a:hover, .innermenu a:active{
+    color: rgb(14, 14, 144);
+    background: bisque
+}
+
+.topbutt {
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 100%;
+    text-align: center;
+    padding: 0;
+    border: 2px solid rgb(14, 14, 144);
+    color: rgb(14, 14, 144);
+    font-size: 1.5em;
+    width: 1.5em;
+    text-decoration: none;
+    background-color: bisque
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+/* grid */
+
+.footnav li{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.footnav {
+    margin: 0
+}
+img{
+    max-width: 20em;
+    height: auto;
+}
+.flright{
+    float: right;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.kort {
+    width: 100%;
+    height: 15em;
+    margin-top: 2em
+}
+.text{
+    font-size: 1.25em;
+}
+.color{
+    background-color: rgb(14, 14, 144)
+}
+.color2{
+    background-color: rgb(126, 15, 126)
+}
+.litur{
+    color: yellow
+}
+.video{
+    width: 100%;
+    height: 197px
+}
+/*------------37.5em----------*/
+@media screen and (min-width: 37.5em){
+    .video{
+        width: 100%;
+        height: 337.5px
+    }
+}
+/*------------48em---------*/
+@media screen and (min-width: 48em){
+    .col-3,
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footcol{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+}
+
+/*------------60em-----------*/
+@media screen and (min-width: 60em){
+    .container {
+        max-width: 60em; /*960px = fartölvur*/
+        margin: 0 auto; /* top+bottom og left+right */
+        padding: 0;
+    }
+    .topnav a, .footnav a{
+        color: bisque;
+        text-decoration: none;
+    }
+    .topnav a{
+        padding-left: 2em
+    }
+    .topnav{
+        margin-top: 3em
+    }
+    
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .gap-4 {
+        grid-gap: 4em
+    }
+    .gap-2{
+        grid-gap: 2em
+    }
+    .mtop8em{
+        margin-top: 8em;
+    }
+    .flex-end{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

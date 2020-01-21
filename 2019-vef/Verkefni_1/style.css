@@ -1,0 +1,45 @@
+.red{color: red}
+
+.blue {color: blue}
+
+ul{color:green}
+
+#body{color:red}
+
+.center {
+    text-align: center;
+}
+
+body{background-color: slategray}
+
+body {
+    width: 55em;
+    font-family: Arial;
+    border: 2px solid blue;
+    margin: 1em;
+    padding: 1em;
+}
+div {
+    margin-left:3em;
+
+}
+
+a {
+    background: blue;
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    background: purple;
+}
+a:hover {
+    background: white;
+    color: blue;
+}
+a:active {
+    background-color: aqua;
+}
+
+#center {
+    text-align: center;
+}
